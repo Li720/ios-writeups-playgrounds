@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852A2DF61F6C6AA100FCD501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A2DF51F6C6AA100FCD501 /* AppDelegate.swift */; };
+		852A2DF81F6C6AA100FCD501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A2DF71F6C6AA100FCD501 /* ViewController.swift */; };
+		852A2DFB1F6C6AA100FCD501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852A2DF91F6C6AA100FCD501 /* Main.storyboard */; };
+		852A2DFD1F6C6AA100FCD501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852A2DFC1F6C6AA100FCD501 /* Assets.xcassets */; };
+		852A2E001F6C6AA100FCD501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852A2DFE1F6C6AA100FCD501 /* LaunchScreen.storyboard */; };
+		852A2E0B1F6C6AA200FCD501 /* Arc_Memory_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A2E0A1F6C6AA200FCD501 /* Arc_Memory_ProjectTests.swift */; };
+		852A2E161F6C6AA200FCD501 /* Arc_Memory_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852A2E151F6C6AA200FCD501 /* Arc_Memory_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		852A2E071F6C6AA200FCD501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852A2DEA1F6C6AA100FCD501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852A2DF11F6C6AA100FCD501;
+			remoteInfo = "Arc-Memory-Project";
+		};
+		852A2E121F6C6AA200FCD501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852A2DEA1F6C6AA100FCD501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852A2DF11F6C6AA100FCD501;
+			remoteInfo = "Arc-Memory-Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		852A2DF21F6C6AA100FCD501 /* Arc-Memory-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arc-Memory-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		852A2DF51F6C6AA100FCD501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		852A2DF71F6C6AA100FCD501 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		852A2DFA1F6C6AA100FCD501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		852A2DFC1F6C6AA100FCD501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		852A2DFF1F6C6AA100FCD501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		852A2E011F6C6AA100FCD501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852A2E061F6C6AA200FCD501 /* Arc-Memory-ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arc-Memory-ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		852A2E0A1F6C6AA200FCD501 /* Arc_Memory_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc_Memory_ProjectTests.swift; sourceTree = "<group>"; };
+		852A2E0C1F6C6AA200FCD501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		852A2E111F6C6AA200FCD501 /* Arc-Memory-ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Arc-Memory-ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		852A2E151F6C6AA200FCD501 /* Arc_Memory_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc_Memory_ProjectUITests.swift; sourceTree = "<group>"; };
+		852A2E171F6C6AA200FCD501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		852A2DEF1F6C6AA100FCD501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852A2E031F6C6AA200FCD501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852A2E0E1F6C6AA200FCD501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		852A2DE91F6C6AA100FCD501 = {
+			isa = PBXGroup;
+			children = (
+				852A2DF41F6C6AA100FCD501 /* Arc-Memory-Project */,
+				852A2E091F6C6AA200FCD501 /* Arc-Memory-ProjectTests */,
+				852A2E141F6C6AA200FCD501 /* Arc-Memory-ProjectUITests */,
+				852A2DF31F6C6AA100FCD501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		852A2DF31F6C6AA100FCD501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				852A2DF21F6C6AA100FCD501 /* Arc-Memory-Project.app */,
+				852A2E061F6C6AA200FCD501 /* Arc-Memory-ProjectTests.xctest */,
+				852A2E111F6C6AA200FCD501 /* Arc-Memory-ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		852A2DF41F6C6AA100FCD501 /* Arc-Memory-Project */ = {
+			isa = PBXGroup;
+			children = (
+				852A2DF51F6C6AA100FCD501 /* AppDelegate.swift */,
+				852A2DF71F6C6AA100FCD501 /* ViewController.swift */,
+				852A2DF91F6C6AA100FCD501 /* Main.storyboard */,
+				852A2DFC1F6C6AA100FCD501 /* Assets.xcassets */,
+				852A2DFE1F6C6AA100FCD501 /* LaunchScreen.storyboard */,
+				852A2E011F6C6AA100FCD501 /* Info.plist */,
+			);
+			path = "Arc-Memory-Project";
+			sourceTree = "<group>";
+		};
+		852A2E091F6C6AA200FCD501 /* Arc-Memory-ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				852A2E0A1F6C6AA200FCD501 /* Arc_Memory_ProjectTests.swift */,
+				852A2E0C1F6C6AA200FCD501 /* Info.plist */,
+			);
+			path = "Arc-Memory-ProjectTests";
+			sourceTree = "<group>";
+		};
+		852A2E141F6C6AA200FCD501 /* Arc-Memory-ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				852A2E151F6C6AA200FCD501 /* Arc_Memory_ProjectUITests.swift */,
+				852A2E171F6C6AA200FCD501 /* Info.plist */,
+			);
+			path = "Arc-Memory-ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		852A2DF11F6C6AA100FCD501 /* Arc-Memory-Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852A2E1A1F6C6AA200FCD501 /* Build configuration list for PBXNativeTarget "Arc-Memory-Project" */;
+			buildPhases = (
+				852A2DEE1F6C6AA100FCD501 /* Sources */,
+				852A2DEF1F6C6AA100FCD501 /* Frameworks */,
+				852A2DF01F6C6AA100FCD501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arc-Memory-Project";
+			productName = "Arc-Memory-Project";
+			productReference = 852A2DF21F6C6AA100FCD501 /* Arc-Memory-Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		852A2E051F6C6AA200FCD501 /* Arc-Memory-ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852A2E1D1F6C6AA200FCD501 /* Build configuration list for PBXNativeTarget "Arc-Memory-ProjectTests" */;
+			buildPhases = (
+				852A2E021F6C6AA200FCD501 /* Sources */,
+				852A2E031F6C6AA200FCD501 /* Frameworks */,
+				852A2E041F6C6AA200FCD501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852A2E081F6C6AA200FCD501 /* PBXTargetDependency */,
+			);
+			name = "Arc-Memory-ProjectTests";
+			productName = "Arc-Memory-ProjectTests";
+			productReference = 852A2E061F6C6AA200FCD501 /* Arc-Memory-ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		852A2E101F6C6AA200FCD501 /* Arc-Memory-ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852A2E201F6C6AA200FCD501 /* Build configuration list for PBXNativeTarget "Arc-Memory-ProjectUITests" */;
+			buildPhases = (
+				852A2E0D1F6C6AA200FCD501 /* Sources */,
+				852A2E0E1F6C6AA200FCD501 /* Frameworks */,
+				852A2E0F1F6C6AA200FCD501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852A2E131F6C6AA200FCD501 /* PBXTargetDependency */,
+			);
+			name = "Arc-Memory-ProjectUITests";
+			productName = "Arc-Memory-ProjectUITests";
+			productReference = 852A2E111F6C6AA200FCD501 /* Arc-Memory-ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		852A2DEA1F6C6AA100FCD501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lst;
+				TargetAttributes = {
+					852A2DF11F6C6AA100FCD501 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					852A2E051F6C6AA200FCD501 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 852A2DF11F6C6AA100FCD501;
+					};
+					852A2E101F6C6AA200FCD501 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 852A2DF11F6C6AA100FCD501;
+					};
+				};
+			};
+			buildConfigurationList = 852A2DED1F6C6AA100FCD501 /* Build configuration list for PBXProject "Arc-Memory-Project" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 852A2DE91F6C6AA100FCD501;
+			productRefGroup = 852A2DF31F6C6AA100FCD501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				852A2DF11F6C6AA100FCD501 /* Arc-Memory-Project */,
+				852A2E051F6C6AA200FCD501 /* Arc-Memory-ProjectTests */,
+				852A2E101F6C6AA200FCD501 /* Arc-Memory-ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		852A2DF01F6C6AA100FCD501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852A2E001F6C6AA100FCD501 /* LaunchScreen.storyboard in Resources */,
+				852A2DFD1F6C6AA100FCD501 /* Assets.xcassets in Resources */,
+				852A2DFB1F6C6AA100FCD501 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852A2E041F6C6AA200FCD501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852A2E0F1F6C6AA200FCD501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		852A2DEE1F6C6AA100FCD501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852A2DF81F6C6AA100FCD501 /* ViewController.swift in Sources */,
+				852A2DF61F6C6AA100FCD501 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852A2E021F6C6AA200FCD501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852A2E0B1F6C6AA200FCD501 /* Arc_Memory_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852A2E0D1F6C6AA200FCD501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852A2E161F6C6AA200FCD501 /* Arc_Memory_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		852A2E081F6C6AA200FCD501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 852A2DF11F6C6AA100FCD501 /* Arc-Memory-Project */;
+			targetProxy = 852A2E071F6C6AA200FCD501 /* PBXContainerItemProxy */;
+		};
+		852A2E131F6C6AA200FCD501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 852A2DF11F6C6AA100FCD501 /* Arc-Memory-Project */;
+			targetProxy = 852A2E121F6C6AA200FCD501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		852A2DF91F6C6AA100FCD501 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852A2DFA1F6C6AA100FCD501 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		852A2DFE1F6C6AA100FCD501 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852A2DFF1F6C6AA100FCD501 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		852A2E181F6C6AA200FCD501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		852A2E191F6C6AA200FCD501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		852A2E1B1F6C6AA200FCD501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Arc-Memory-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lst.Arc-Memory-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		852A2E1C1F6C6AA200FCD501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Arc-Memory-Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lst.Arc-Memory-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		852A2E1E1F6C6AA200FCD501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Arc-Memory-ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lst.Arc-Memory-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arc-Memory-Project.app/Arc-Memory-Project";
+			};
+			name = Debug;
+		};
+		852A2E1F1F6C6AA200FCD501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Arc-Memory-ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lst.Arc-Memory-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arc-Memory-Project.app/Arc-Memory-Project";
+			};
+			name = Release;
+		};
+		852A2E211F6C6AA200FCD501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Arc-Memory-ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lst.Arc-Memory-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arc-Memory-Project";
+			};
+			name = Debug;
+		};
+		852A2E221F6C6AA200FCD501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Arc-Memory-ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lst.Arc-Memory-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Arc-Memory-Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		852A2DED1F6C6AA100FCD501 /* Build configuration list for PBXProject "Arc-Memory-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852A2E181F6C6AA200FCD501 /* Debug */,
+				852A2E191F6C6AA200FCD501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		852A2E1A1F6C6AA200FCD501 /* Build configuration list for PBXNativeTarget "Arc-Memory-Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852A2E1B1F6C6AA200FCD501 /* Debug */,
+				852A2E1C1F6C6AA200FCD501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		852A2E1D1F6C6AA200FCD501 /* Build configuration list for PBXNativeTarget "Arc-Memory-ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852A2E1E1F6C6AA200FCD501 /* Debug */,
+				852A2E1F1F6C6AA200FCD501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		852A2E201F6C6AA200FCD501 /* Build configuration list for PBXNativeTarget "Arc-Memory-ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852A2E211F6C6AA200FCD501 /* Debug */,
+				852A2E221F6C6AA200FCD501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 852A2DEA1F6C6AA100FCD501 /* Project object */;
+}
